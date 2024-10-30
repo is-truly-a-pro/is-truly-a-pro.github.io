@@ -1,213 +1,131 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <title>is-truly-a.pro | Free Subdomains</title>
-
   <meta name="description" content="A service to allow anyone to get free .is-truly-a.pro subdomains">
 
   <style>
+    /* Import Qabary font */
+    @font-face {
+      font-family: 'Qabary';
+      src: url('./assets/font.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
 
     /* Set the color scheme */
-
     :root {
-
       --primary-color: #6495ed;
-
       --text-color: #ffffff;
-
       --body-bg: #121212;
-
       --card-bg: #1f1f1f;
-
       --link-color: #b0c4de;
-
       --link-hover: #add8e6;
-
     }
 
     /* Global styles */
-
     body {
-
-      font-family: 'Roboto', sans-serif;
-
+      font-family: 'Qabary', sans-serif; /* Use Qabary font */
       margin: 0;
-
       padding: 0;
-
       background-color: var(--body-bg);
-
       color: var(--text-color);
-
     }
 
     .container {
-
       max-width: 1200px;
-
       margin: 0 auto;
-
       padding: 40px 20px;
-
     }
 
     /* Heading styles */
-
     .main-heading {
-
       color: var(--primary-color);
-
       font-size: 3rem;
-
       text-align: center;
-
       margin: 20px 0 10px;
-
     }
 
     .sub-heading {
-
       font-size: 1.2rem;
-
       text-align: center;
-
       color: var(--text-color);
-
       margin: 0 0 40px;
-
     }
 
     /* Main content styles */
-
     .card {
-
       background-color: var(--card-bg);
-
       border-radius: 10px;
-
       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-
       padding: 30px;
-
       margin-bottom: 30px;
-
     }
 
     .card h2 {
-
       color: var(--primary-color);
-
       font-size: 1.8rem;
-
       margin-top: 0;
-
     }
 
     .card p {
-
       font-size: 1.1rem;
-
       line-height: 1.6;
-
     }
 
     .card a {
-
       color: var(--link-color);
-
       text-decoration: none;
-
       transition: color 0.3s;
-
     }
 
     .card a:hover {
-
       color: var(--link-hover);
-
     }
 
     /* Footer styles */
-
     footer {
-
       background-color: var(--header-bg);
-
       color: var(--text-color);
-
       text-align: center;
-
       padding: 20px 0;
-
       font-size: 0.9rem;
-
     }
 
     footer a {
-
       color: var(--link-color);
-
       text-decoration: none;
-
       transition: color 0.3s;
-
     }
 
     footer a:hover {
-
       color: var(--link-hover);
-
     }
-
   </style>
-
 </head>
 
 <body>
-
   <div class="container">
-
     <h1 class="main-heading">is-truly-a.pro</h1>
-
     <p class="sub-heading">Free subdomains for everyone</p>
-
     <main>
-
       <div class="card">
-
         <h2>About the Service</h2>
-
         <p>is-truly-a.pro is a service that allows anyone to get free and easy-to-remember subdomains. With a simple registration process, you can claim your own unique subdomain under the .is-truly-a.pro domain.</p>
-
       </div>
-
       <div class="card">
-
         <h2>How to Register</h2>
-
         <p>To register your own subdomain, visit the <a href="https://github.com/is-truly-a-pro/register">is-truly-a.pro registration repo</a> and follow the instructions.</p>
-
       </div>
-
       <div class="card">
-
         <h2>Report Abuse</h2>
-
         <p>If you believe a subdomain is being used inappropriately, please <a href="https://github.com/is-truly-a-pro/register/issues">report the issue</a> so we can investigate and take appropriate action.</p>
-
       </div>
-
     </main>
-
   </div>
-
 </body>
 
 </html>
