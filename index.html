@@ -8,7 +8,6 @@
   <meta name="description" content="A service to allow anyone to get free .is-truly-a.pro subdomains">
 
   <style>
-    /* Import Qabary font */
     @font-face {
       font-family: 'Qabary';
       src: url('./assets/font.woff') format('woff');
@@ -16,19 +15,24 @@
       font-style: normal;
     }
 
-    /* Set the color scheme */
+    @font-face {
+      font-family: '0xProto';
+      src: url('./assets/font2.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+    }
+
     :root {
       --primary-color: #6495ed;
       --text-color: #ffffff;
-      --body-bg: #121212;
+      --body-bg: #1a2238;
       --card-bg: #1f1f1f;
       --link-color: #b0c4de;
       --link-hover: #add8e6;
     }
 
-    /* Global styles */
     body {
-      font-family: 'Qabary', sans-serif; /* Use Qabary font */
+      font-family: '0xProto', sans-serif;
       margin: 0;
       padding: 0;
       background-color: var(--body-bg);
@@ -41,12 +45,12 @@
       padding: 40px 20px;
     }
 
-    /* Heading styles */
     .main-heading {
       color: var(--primary-color);
       font-size: 3rem;
       text-align: center;
       margin: 20px 0 10px;
+      font-family: 'Qabary', sans-serif;
     }
 
     .sub-heading {
@@ -56,7 +60,6 @@
       margin: 0 0 40px;
     }
 
-    /* Main content styles */
     .card {
       background-color: var(--card-bg);
       border-radius: 10px;
@@ -86,7 +89,6 @@
       color: var(--link-hover);
     }
 
-    /* Footer styles */
     footer {
       background-color: var(--header-bg);
       color: var(--text-color);
